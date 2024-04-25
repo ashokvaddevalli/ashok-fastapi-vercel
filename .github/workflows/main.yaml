@@ -36,7 +36,6 @@ jobs:
 
       - name: Run the application
         run: uvicorn main:app --reload
-	
 
      # - name: Build Project Artifacts
      #   run: vercel build --yes --token=${{ secrets.VERCEL_TOKEN }}
