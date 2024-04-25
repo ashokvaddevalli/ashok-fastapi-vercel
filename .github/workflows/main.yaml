@@ -32,10 +32,7 @@ jobs:
          python -m venv env
          source env/bin/activate
          pip install -r requirements.txt
-         uvicorn
-
-      - name: Run the application
-        run: uvicorn main:app --reload
+         uvicorn main:app --reload
 
      # - name: Build Project Artifacts
      #   run: vercel build --yes --token=${{ secrets.VERCEL_TOKEN }}
